@@ -1,0 +1,34 @@
+EMS BACKEND USING NODE AND EXPRESS
+                              ----------------------------------------
+                              1. npm imit -y
+                                        ~ this would help us to create a or initialize all the package-json modules
+                              2. db.json , this is usually build for those in which we import the datas to do !
+                              3. here the data is stored in the mongodb
+                              4. index.js is the main file,so this file is very much important to create.
+                              5. Create an application usig express - npm i express (automatically generate node modules)
+                              6. CORS - npm i cors
+                              - The word CORS stands for “Cross-Origin Resource Sharing”.
+                              - Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.- The word CORS stands for “Cross-Origin Resource Sharing”. Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.  
+
+                              7. Complete the code on index.js
+                              8. Connecting to our database (mongodb) (Node + mongodb connection)
+                                - mongoose library is used to connect to node and mongodb
+                                - npm i mongoose    
+                              9. Create a folder in Backend , inside it create a file named as db.js 
+                                   for connecting node and mongodb
+                                   -> mongoose library is used to connect to node and mongodb
+                                       npm i mongoose
+
+                              10. Create a model and schema in Backend , inside the db.js 
+
+                                      BACKEND                       MONGODB
+                                    ------------                  -------------
+                                   model - employee                collection - employees
+                            schema {id:string,name:string....} 
+
+                            11. Create a logics.js file for Implementing Backend Logic.(inside the service folder)  
+
+                            12 Route setting
+
+                            localhost:8000/get-all-employees -> all employees details that present in the
+                            mongodb
